@@ -1,0 +1,228 @@
+body {
+  font-family: 'DINPro', sans-serif;
+  margin: 0;
+  color: white;
+  height: auto;
+  background: #4BFF8C; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#4BFF8C, #44E8AE); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#4BFF8C, #44E8AE); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#4BFF8C, #44E8AE); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#4BFF8C, #44E8AE); /* Standard syntax */
+}
+h1 {
+  font-size: 30px;
+  font-family: 'DINPro Medium', sans-serif;
+}
+p {
+  font-size: 25px;
+}
+span {
+  font-family: "DINPro Bold", sans-serif;
+}
+.nav {
+  padding: 25px;
+  min-height: 260px;
+  background-image: url("../assets/nav.svg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  color: #44E8AE;
+}
+.logo {
+  padding: 0;
+  height: 100px;
+  display: inline;
+}
+ul {
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+li:first-child {
+  padding: 20px;
+}
+li {
+  list-style-type: none;
+  display: inline;
+  padding: 10px 25px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+li:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #4BFF8C;
+}
+li:first-child {
+  border: none;
+}
+.aspot {
+  display: flex;
+  justify-content: flex-center;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin: 0 auto;
+  padding: 25px;
+}
+.info {
+  margin-top: -150px;
+  padding: 20px;
+  text-align: left;
+
+}
+
+.mock {
+  max-width: 300px;
+}
+.footer {
+  background: white;
+  color: #44E8AE;
+  padding: 50px 0 20px 0;
+  text-align: center;
+}
+.footer-content {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.footer-content li:hover {
+  text-align: center;
+  border: none;
+}
+.footer-content a:hover {
+  text-align: center;
+  border-bottom: 2px solid #4BFF8C;
+}
+
+
+.footer-content li:first-child {
+  padding: 10px 25px;
+}
+i {
+  color: #44E8AE;
+}
+.copyright {
+  color: #44E8AE;
+  font-size: 15px;
+}
+.title {
+  font-family: 'DINPro Bold', sans-serif;
+}
+@media (min-width: 500px) {
+  .nav {
+    height: 300px;
+  }
+}
+@media (min-width: 700px) {
+  .nav {
+    height: 300px;
+  }
+  .info {
+    margin: 0;
+  }
+}
+@media (min-width: 1000px) {
+  .mock {
+    max-width: 500px;
+  }
+  .aspot {
+    margin-top: -150px;
+  }
+}
+@media (min-width: 1200px) {
+  .nav {
+    height: 400px
+  }
+  .aspot {
+    margin-top: -200px;
+    padding: 0 160px;
+  }
+
+}
+@media (max-width: 500px) {
+  .aspot {
+    display: block;
+  }
+  .logo {
+    height: 50px;
+  }
+  li {
+    padding: 10px;
+  }
+}
+@media (max-width: 400px) {
+  .info p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 350px) {
+  .nav a {
+    font-size: 15px;
+  }
+  .nav li:first-child {
+    padding: 0;
+  }
+  .mock {
+    max-width: 200px;
+  }
+}
+
+@font-face {
+	font-family: 'DINPro Light';
+	src:
+		local('DINPro Light'),
+		local('DINPro-Light'),
+		url('../fonts/DINPro-Light.otf')
+		format('opentype');
+  font-weight: lighter;
+}
+
+@font-face {
+	font-family: 'DINPro';
+	src:
+		local('DINPro'),
+		local('DINPro'),
+		url('../fonts/DINPro-Regular.otf')
+		format('opentype');
+}
+
+@font-face {
+	font-family: 'DINPro Medium';
+	src:
+		local('DINPro Medium'),
+		local('DINPro-Medium'),
+		url('../fonts/DINPro-Medium.otf')
+		format('opentype');
+  font-weight: 400;
+}
+/*bold version*/
+@font-face {
+	font-family: 'DINPro Bold';
+	src:
+		local('DINPro Bold'),
+		local('DINPro-Bold'),
+		url('../fonts/DINPro-Bold.otf')
+		format('opentype');
+	font-weight: bold;
+}
+
+.pic img {
+  max-height: 350px;
+  padding: 50px;
+}
+
+@media (min-width: 1420px) {
+    .nav {
+      background: white;
+      height: 100px;
+      background-image: none;
+      min-height: 100px;
+    }
+    .aspot {
+      margin-top: 0px;
+    }
+}
