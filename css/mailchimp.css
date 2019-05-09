@@ -15,11 +15,11 @@ input {
   padding: 20px 20px 0px 0;
   background: none;
   border: none;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid black;
   width: 100%;
   margin-bottom: 20px;
   font-size: 14px;
-  color: white;
+  color: black;
 
 }
 .indicates-required {
@@ -28,11 +28,11 @@ input {
 }
 #mc_embed_signup input {
   border: none;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid black;
 }
 #mc_embed_signup .button {
   height: auto;
-  background: white;
+  background: black;
   color: #63CA98;
   border: none;
   border-radius: 10px;
@@ -50,11 +50,12 @@ input {
 }
 .button {
   height: auto;
-  background: white;
-  color: #63CA98;
+  background: black;
+  color: #4BFF8C;
   border: none;
   border-radius: 10px;
   padding: 20px;
   width: 150px;
   text-align: center;
+  font-weight: bold;
 }
