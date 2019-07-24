@@ -1,2 +1,2 @@
-# zeb-commercial
-ZEB Commercial Company Website
+# zeb-Solar
+ZEB Solar Company Website
