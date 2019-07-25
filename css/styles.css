@@ -17,11 +17,10 @@ span {
 }
 .nav {
   padding: 25px;
-  min-height: 200px;
-  background-image: url("../assets/nav.svg");
+  min-height: 100px;
   background-repeat: no-repeat;
   background-position: right top;
-  color: #4BFF8C;
+  color: #33CC66;
 }
 .logo {
   padding: 0;
@@ -49,7 +48,7 @@ a {
 }
 li:hover {
   text-decoration: none;
-  border-bottom: 2px solid #4BFF8C;
+  border-bottom: 2px solid #33CC66;
 }
 li:first-child {
   border: none;
@@ -74,7 +73,7 @@ li:first-child {
 }
 .footer {
   background: black;
-  color: #4BFF8C;
+  color: #33CC66;
   padding: 50px 0 20px 0;
   text-align: center;
 }
@@ -91,7 +90,7 @@ li:first-child {
 }
 .footer-content a:hover {
   text-align: center;
-  border-bottom: 2px solid #4BFF8C;
+  border-bottom: 2px solid #33CC66;
 }
 
 
@@ -99,10 +98,10 @@ li:first-child {
   padding: 10px 25px;
 }
 i {
-  color: #4BFF8C;
+  color: #33CC66;
 }
 .copyright {
-  color: #4BFF8C;
+  color: #33CC66;
   font-size: 15px;
 }
 .title {
@@ -110,12 +109,10 @@ i {
 }
 @media (min-width: 500px) {
   .nav {
-    height: 200px;
   }
 }
 @media (min-width: 700px) {
   .nav {
-    height: 200px;
   }
   .info {
     margin: 0;
@@ -131,7 +128,7 @@ i {
 }
 @media (min-width: 1000px) {
   .nav {
-    height: 400px
+    height: 200px
   }
   .aspot {
     margin-top: -200px;
